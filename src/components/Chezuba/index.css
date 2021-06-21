@@ -1,0 +1,45 @@
+.headings {
+  font-size: 30px;
+  color: #246a75;
+  font-weight: 700;
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.body {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/portfolio-lg-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.app-container {
+  width: 60%;
+  background: #ffffff25;
+  border-radius: 10px;
+  border: 1px solid #ffffff60;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.searchBar {
+  height: 30px;
+  width: 200px;
+  outline: none;
+  border: 1px solid #4d4a4f70;
+  font-family: 'Open Sans';
+  border-radius: 8px;
+}
+
+.search-bar-container {
+  text-align: center;
+}
